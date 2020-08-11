@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Sunflower:700');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #app {
+  height: 100%;
+}
+
+#app {
+  background: #74b9ff;
+  padding: 30px;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+}
+
+.transition {
+  position: relative;
+}
+
+.animated {
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sunflower', sans-serif;
+  color: #fff;
+}
+
+nav {
+  background: #0984e3;
+  padding: 10px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #e17055;
+  padding: 10px;
+}
+
+nav a:hover {
+  background: #d63031;
+}
